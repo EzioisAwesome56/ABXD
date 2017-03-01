@@ -2,7 +2,8 @@
 Jon's next solo project after MRS, JABXD!
 
 ## Features
- * Almost everything is a plugin
+ * More plugins
+ * You dont have to have forums on your website, its a plugin
  * more soon
  
 ## Installation
