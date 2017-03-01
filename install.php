@@ -17,7 +17,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>ABXD installation</title>
+		<title>Jon's AcmlmboardXD installation</title>
 		<link rel="stylesheet" href="css/common.css" type="text/css" />
 		<link rel="stylesheet" href="themes/abxd30/style.css" type="text/css" />
 		<script src="js/jquery.js"></script>
@@ -41,19 +41,16 @@
 			<tr class="cell0">
 				<td style="max-height: 500px; height: 500px; vertical-align: top;" id="installPager">
 					<div class="page" id="page1">
-						<h3>Welcome to ABXD</h3>
+						<h3>Welcome to Jon's ABXD</h3>
 						<p>
-							Welcome to the installer for ABXD.
-							We've done a few changes in 3.0 to make using ABXD even better, including:
+							Welcome to the installer for Jon's ABXD.
+							I've been working on this fork for a while, here is the new stuff:
 							<ul>
-								<li>Large codebase cleanups &mdash; the board should now work better than ever!</li>
-								<li>A new, flexible permissions system that lets you define user groups or per-user permissions, such as forum access.</li>
-								<li>Easier theme installation for administrators</li>
-								<li>[ devs add stuff here ]</li>
+								<li>insert new features here</li>
 							</ul>
 						<p>
-							Thanks for using ABXD!<br />
-							- The ABXD developers
+							Thanks for choosing Jon's ABXD!<br />
+							- Jon
 					</div>
 					<div class="page" id="page2">
 						<div class="install-only sql-configured">
