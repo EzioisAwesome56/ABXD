@@ -21,9 +21,8 @@ if($loguserid)
 }
 else
 {
-	$userMenu->add(new PipeMenuLinkEntry(__("Register"), "register", "", "", "user"));
 	$userMenu->add(new PipeMenuLinkEntry(__("Log in"), "login", "", "", "signin"));
 }
-
+$bucket = "regLink"; include("./lib/pluginloader.php");
 $layout_userpanel = $userMenu;
 ?>
