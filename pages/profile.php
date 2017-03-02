@@ -307,17 +307,13 @@ if(IsAllowed("editProfile") && $loguserid == $id)
 else if(IsAllowed("editUser") && $loguser['powerlevel'] > 2)
 	$links -> add(new PipeMenuLinkEntry(__("Edit user"), "editprofile", $id, "", "pencil"));
 
-if(IsAllowed("snoopPM") && $loguser['powerlevel'] > 2)
-	$links -> add(new PipeMenuLinkEntry(__("Show PMs"), "private", $id, "", "eye-open"));
 
-if($loguserid && IsAllowed("sendPM"))
-	$links -> add(new PipeMenuLinkEntry(__("Send PM"), "sendprivate", "", "uid=".$id, "envelope"));
 if(IsAllowed("listPosts"))
 		$links -> add(new PipeMenuLinkEntry(__("Show posts"), "listposts", $id, "", "copy"));
 if(IsAllowed("listThreads"))
 		$links -> add(new PipeMenuLinkEntry(__("Show threads"), "listthreads", $id, "", "list"));
 
-
+$bucket = "userLinks"; include("./lib/pluginloader.php");
 if(IsAllowed("blockLayouts") && $loguserid)
 {
 	$rBlock = Query("select * from {blockedlayouts} where user={0} and blockee={1}", $id, $loguserid);

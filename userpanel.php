@@ -7,8 +7,6 @@ if($loguserid)
 
 	if(isAllowed("editProfile"))
 		$userMenu->add(new PipeMenuLinkEntry(__("Edit profile"), "editprofile", "", "", "pencil"));
-	if(isAllowed("viewPM"))
-		$userMenu->add(new PipeMenuLinkEntry(__("Private messages"), "private", "", "", "envelope"));
 
 	$bucket = "bottomMenu"; include("./lib/pluginloader.php");
 
