@@ -2,8 +2,8 @@
 Jon's next solo project after MRS, JABXD!
 
 ## Features
- * More plugins
- * You dont have to have forums on your website, its a plugin
+ * Install you want features from plugins and leave out the ones you dont!
+ * Custom Homepage plugin
  * more soon
  
 ## Installation
