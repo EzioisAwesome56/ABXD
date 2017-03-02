@@ -1,3 +1,3 @@
 <?php
-Kill("Install the forum plugin for the proper homepage")
+Kill("Install a homepage plugin for a proper homepage")
 ?>
