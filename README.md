@@ -2,7 +2,7 @@
 Jon's next solo project after MRS, JABXD!
 
 ## Features
- * Install you want features from plugins and leave out the ones you dont!
+ * Customize your board's features with plugins (EX: Dont want forums? Dont enable the forums plugin)
  * Custom Homepage plugin
  * more soon
  
